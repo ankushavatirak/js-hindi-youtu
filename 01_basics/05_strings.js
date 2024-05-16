@@ -1,9 +1,9 @@
-const name = "hitesh"
-const repoCount = 50
+const name = "and my repo count is "
+const repoCount ="Hello my name is" 
 
-console.log(name + repoCount + " Value");
+console.log(name + repoCount + " Value"); // Dont do like this 
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(` ${name}${repoCount}`); // do like this 
 
 const gameName =new String('hitesh-hc-com') 
 
