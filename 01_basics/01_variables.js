@@ -1,16 +1,16 @@
 const accountId = 144553
-let accountEmail = "hitesh@google.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
-let accountState;
+let Email = "hitesh@google.com"
+var Password = "12345"
+City = "Jaipur"
+let State;
 
 // let accountState;
 // accountId = 2 // not allowed
 
 
-accountEmail = "hc@hc.com"
-accountPassword = "21212121"
-accountCity = "Bengaluru"
+Email = "hc@hc.com"
+Password = "21212121"
+City = "Bengaluru"
 
 console.log(accountId);
 
@@ -20,4 +20,19 @@ because of issue in block scope and functional scope
 */
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+console.table([accountId, Email, Password, City, State])
+
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// const ankush =1444002112
+// let Email = "Ankush@gmail.com"
+// let city = "akola"
+// let pin = "444302"
+
+// console.log(ankush)
+
+// Email = "harish@gmail.com"
+// city = "vyala"
+// pin = "6656"
+
+// console.table( [ankush, Email ,city ,pin])
